@@ -26,7 +26,11 @@ Driving Environment/Locality has significant impact on driving styles, speed, dr
 
 ## Dataset Information
 
-Organize the data as follows in the repository
+Organize the data as follows in the repository. We use a custom dataset  70/20/10 train/val/test split respectively the dataset compiled from SHRP2 and Signal Phase video data. Our data set contains:
+* 17174 training images.
+* 2120 validation images.
+* and 2147 test images.
+ 
 <pre>
 ./
  |__ data
@@ -52,5 +56,12 @@ python main.py \
 
 ## Training & Testing
 
-We trained the network with  70/20/10 split for train/validation/test sets respectively and tested its performance on a test set that the network has never seen. The performance of the nnetwork is evaluated based on combination of its loss, F-score and accuracy curves for training and validation, and its performance on the same metrics with the test data.
+We trained the network on train and validation sets and tested its performance on a test set that the network never sees during training. The performance of the network is evaluated based on a combination of its loss, F-score and accuracy curves for training and validation, and its performance on the same metrics with the test data. Further, we also analyze the saliency maps of the calssified images to gather insights on the basis of classification.
 
+### Training and Validation
+
+#### Note on Loss funtion 
+
+### Test 
+
+### Saliency
