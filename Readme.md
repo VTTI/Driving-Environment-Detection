@@ -76,7 +76,7 @@ The best model obtianed from training with various configurations of optimizers 
 The confusion matrix on test set is as follows:
 <table style="padding: 10px">
     <tr>
-        <td> <img src="./Images/baseline_1_performance/confusion-matrix.png"  alt="1" width="250" height="200"></td>
+        <td> <img src="./Images/baseline_1_performance/confusion-matrix.png"  alt="2" width="250" height="200"></td>
     </tr>
 </table>
 
@@ -85,7 +85,7 @@ Some examples of saliency maps observed for each class.
 * Interstate 
 <table style="padding: 10px">
     <tr>
-        <td> <img src="./Images/baseline_1_saliency/Saliency_interstate.png"  alt="1" width="350" height="600"></td>
+        <td> <img src="./Images/baseline_1_saliency/Saliency_interstate.png"  alt="1" width="450" height="600"></td>
     </tr>
 </table>
 
