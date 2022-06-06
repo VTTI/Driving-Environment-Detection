@@ -40,10 +40,13 @@ Organize the data as follows in the repository. We use a custom dataset  70/20/1
         
 </pre>
 
-## Model 1 : Baseline built on resnext50 backbone
+## Models
 
-To run the model use the configs/config_baseline.yaml file as input to --config flag and follow the steps below.
+1. Baseline built on resnext50 backbone : To run the model use the configs/config_baseline.yaml file as input to --config flag and run.
 
+2. Baseline_2 built on Vision Transofrmer backbone : This model is in progress.
+ 
+### To run the code
 <pre>
 cd /opt/app
 python main.py \
