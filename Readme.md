@@ -1,9 +1,11 @@
 # Driving Environment Detection (Locality Calssification)
+## Introduction
+Driving Environment/Locality has significant impact on driving styles, speed, driver attention and various other factors that help study and improve driver safety in both traditional and autonomous driving systems. This project aims to percive and identify driving environment from image/video feeds based on the visual cues contained in them.
 
-# Setting up Docker Environment and Dependencies
+## Code use: Setting up Docker Environment and Dependencies
 <ul>
     <li>Step 1: Clone the repository to local machine 
-        <pre>git clone https://gitlab.vtti.vt.edu/ctbs/fhwa-cv/driving-environment-detection.git</pre>
+        <pre>git clone https://github.com/VTTI/Driving-Environment-Detection.git </pre>
     </li>
     <li>Step 2: cd to downloaded repository 
         <pre>cd [repo-name]</pre>
@@ -22,7 +24,7 @@
     </li>
 </ul>
 
-# Dataset Information
+## Dataset Information
 
 Organize the data as follows in the repository
 <pre>
@@ -34,9 +36,9 @@ Organize the data as follows in the repository
         
 </pre>
 
-# Model 1: Intersection Detection
+## Model 1 : Baseline built on resnext50 backbone
 
-To run the model
+To run the model use the configs/config_baseline.yaml file as input to --config flag and follow the steps below.
 
 <pre>
 cd /opt/app
@@ -49,4 +51,6 @@ python main.py \
 </pre>
 
 ## Training & Testing
+
+We trained the network with  70/20/10 split for train/validation/test sets respectively and tested its performance on a test set that the network has never seen. The performance of the nnetwork is evaluated based on combination of its loss, F-score and accuracy curves for training and validation, and its performance on the same metrics with the test data.
 
