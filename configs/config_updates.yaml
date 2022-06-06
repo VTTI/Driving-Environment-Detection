@@ -1,0 +1,7 @@
+
+# Configuration updates for config_baseline.yaml
+
+OPTIMIZERS : ['ADAM', 'AdamW', 'ASGD', 'SGD','RMSprop']
+MODELS : ['resnext50']
+
+

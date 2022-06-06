@@ -1,0 +1,13 @@
+BACKBONE: ViT
+BATCH_SIZE: 32
+CUSTOM_IMAGES_PATH: data/test
+EPOCHS: 200
+INTERSTATE_DIR: /vtti/projects03/451600/Data/Dump/LocalityData1.0/Interstate
+LOG_STEP: 50
+LR: 0.001
+MODEL: ViT
+OPTIMIZER: ADAM
+OUTPUT_DIR: /vtti/projects03/451600/Data/Dump/Locality_Results/output/baseline
+RESIZE_SHAPE: (224, 224)
+RES_DIR: /vtti/projects03/451600/Data/Dump/LocalityData1.0/Residential
+URBAN_DIR: /vtti/projects03/451600/Data/Dump/LocalityData1.0/Urban

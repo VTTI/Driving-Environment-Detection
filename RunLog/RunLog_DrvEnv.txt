@@ -1,0 +1,240 @@
+Parameters used for data extraction:
+Videos_path:video_data
+Annotation_path:video_data/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+[Errno 2] No such file or directory: 'video_data/Annotation/Full_Annotation.csv'
+Parameters used for data extraction:
+Videos_path:video_data
+Annotation_path:video_data/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+[Errno 2] No such file or directory: 'video_data/Annotation/Full_Annotation.csv'
+Parameters used for data extraction:
+Videos_path:video_data
+Annotation_path:video_data/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+[Errno 2] No such file or directory: 'video_data/Annotation/Full_Annotation.csv'
+Parameters used for data extraction:
+Videos_path:video_data
+Annotation_path:video_data/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+[Errno 2] No such file or directory: 'video_data/Annotation/Full_Annotation.csv'
+Parameters used for data extraction:
+Videos_path:video_data
+Annotation_path:video_data/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+[Errno 2] No such file or directory: 'video_data/Annotation/Full_Annotation.csv'
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+[Errno 2] No such file or directory: 'videos/Annotation/Full_Annotation.csv'
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.xlsx
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Missing optional dependency 'xlrd'. Install xlrd >= 1.0.0 for Excel support Use pip or conda to install xlrd.
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.xlsx
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Missing optional dependency 'xlrd'. Install xlrd >= 1.0.0 for Excel support Use pip or conda to install xlrd.
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+'generator' object is not subscriptable
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+object of type 'generator' has no len()
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+object of type 'generator' has no len()
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+object of type 'generator' has no len()
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
+Parameters used for data extraction:
+Videos_path:videos
+Annotation_path:videos/Annotation/Full_Annotation.csv
+Data_save_path:data
+Num_samples:1000
+Dataset_name:Front_Video
