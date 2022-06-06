@@ -44,7 +44,7 @@ Organize the data as follows in the repository. We use a custom dataset  70/20/1
 
 1. Baseline built on resnext50 backbone : To run the model use the configs/config_baseline.yaml file as input to --config flag and run.
 
-2. Baseline_2 built on Vision Transofrmer backbone : This model is in progress.
+2. Baseline_2 built on Vision Transformer backbone : This model is in progress.
  
 ### To run the code
 <pre>
@@ -60,9 +60,16 @@ python main.py \
 ## Training & Testing
 
 We trained the network on train and validation sets and tested its performance on a test set that the network never sees during training. The performance of the network is evaluated based on a combination of its loss, F-score and accuracy curves for training and validation, and its performance on the same metrics with the test data. Further, we also analyze the saliency maps of the calssified images to gather insights on the basis of classification.
+Note that all models are initialized with pretrained weights from training on ImageNet calssification task.
 
 ### Training and Validation
-
+The best model obtianed from training with various configurations of optimizers and hyperparameters including learning rate and epochs is with the use of AdamW optimizer. We trained the network for 200 epochs and ploted the performance curves which are as shown here.
+<table style="padding: 10px">
+    <tr>
+        <td> <img src="./Images/baseline_1_performance/AdamW_Fscore.png"  alt="1" width="300" height="300"></td>
+        <td> <img src="./Images/baseline_1_performance/AdamW_Accuracy.png"  alt="1" width="300" height="300"></td>
+        <td> <img src="./Images/baseline_1_performance/AdamW_Loss.png"  alt="1" width="300" height="300"></td>
+    </tr>
 #### Note on Loss funtion 
 
 ### Test 
