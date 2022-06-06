@@ -77,9 +77,9 @@ The results obtained by this base line on the entire test set :
 <li>Loss: 0.6871 </li>
 <li>Fscore: 71.15% </li>
 <li>Confusion Matrices by class: </li>
-* residential [tp,tn,fp,fn] : [369, 1313, 271, 193]
-* Urban [tp,tn,fp,fn] : [650, 935, 233, 328] 
-* Interstate [tp,tn,fp,fn] : [501, 1418, 122, 105]
+    * residential [tp,tn,fp,fn] : [369, 1313, 271, 193]
+    * Urban [tp,tn,fp,fn] : [650, 935, 233, 328] 
+    * Interstate [tp,tn,fp,fn] : [501, 1418, 122, 105]
 <li>Accuracy : 80.55%</li>
 
 The confusion matrix on test set is as follows:
