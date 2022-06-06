@@ -66,10 +66,11 @@ Note that all models are initialized with pretrained weights from training on Im
 The best model obtianed from training with various configurations of optimizers and hyperparameters including learning rate and epochs is with the use of AdamW optimizer. We trained the network for 200 epochs and ploted the performance curves which are as shown here.
 <table style="padding: 10px">
     <tr>
-        <td> <img src="./Images/baseline_1_performance/AdamW_Fscore.png"  alt="1" width="300" height="300"></td>
-        <td> <img src="./Images/baseline_1_performance/AdamW_Accuracy.png"  alt="1" width="300" height="300"></td>
-        <td> <img src="./Images/baseline_1_performance/AdamW_Loss.png"  alt="1" width="300" height="300"></td>
+        <td> <img src="./Images/baseline_1_performance/AdamW_Fscore.png"  alt="1" width="300" height="200"></td>
+        <td> <img src="./Images/baseline_1_performance/AdamW_Accuracy.png"  alt="1" width="300" height="200"></td>
+        <td> <img src="./Images/baseline_1_performance/AdamW_Loss.png"  alt="1" width="300" height="200"></td>
     </tr>
+</table>
 #### Note on Loss funtion 
 
 ### Test 
