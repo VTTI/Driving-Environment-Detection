@@ -42,10 +42,11 @@ Organize the data as follows in the repository. We use a custom dataset  70/20/1
 
 ## Models
 
-1. Baseline built on resnext50 backbone : To run the model use the configs/config_baseline.yaml file as input to --config flag and run.
+1. Baseline built on resnext50 backbone : To run and train the model use the configs/config_baseline.yaml file as input to --config flag and run.
 
-2. Baseline_2 built on Vision Transformer backbone : To run the model use the configs/config_ViT_baseline.yaml file as input to --config flag and run.
+2. Baseline_2 built on Vision Transformer backbone : To run and train the model use the configs/config_ViT.yaml file as input to --config flag and run.
  
+3. To test a model with pretrained weights. Use --mode='test'/'test_single' and appropriate config file as input to --config flag and run.
 ### To run the code
 <pre>
 cd /opt/app
@@ -63,6 +64,7 @@ We trained the network on train and validation sets and tested its performance o
 Note that all models are initialized with pretrained weights from training on ImageNet calssification task.
 
 ### Training and Validation
+#### Resnext50
 The best model obtianed from training with various configurations of optimizers and hyperparameters including learning rate and epochs is with the use of AdamW optimizer. We trained the network for 200 epochs and ploted the performance curves which are as shown here.
 <table style="padding: 10px">
     <tr>
@@ -88,6 +90,33 @@ The confusion matrix on test set is as follows:
         <td> <img src="./Images/baseline_1_performance/confusion-matrix.png"  alt="1" width="250" height="200"></td>
     </tr>
 </table>
+#### Vision Transformer
+Alternate model was trained using Vision Transformer abd best wegiths for this were from training with various configurations of optimizers and hyperparameters including learning rate and epochs is with the use of AdamW optimizer. We trained the network for 200 epochs and ploted the performance curves which are as shown here.
+<table style="padding: 10px">
+    <tr>
+        <td> <img src="./Images/vit_performance/AdamW_Fscore.png"  alt="1" width="300" height="180"></td>
+        <td> <img src="./Images/vit_performance/AdamW_Accuracy.png"  alt="1" width="300" height="180"></td>
+        <td> <img src="./Images/vit_performance/AdamW_Loss.png"  alt="1" width="300" height="180"></td>
+    </tr>
+</table>
+
+### Test 
+The results obtained by this vit model on the entire test set :
+* Loss: 0.925
+* Fscore: 56.5% 
+* Confusion Matrices by class:
+    * residential [tp,tn,fp,fn] : [339, 1217, 329, 234]
+    * Urban [tp,tn,fp,fn] : [516, 800, 335, 468] 
+    * Interstate [tp,tn,fp,fn] : [332, 1289, 268, 230]
+* Accuracy : 71.45%
+
+The confusion matrix on test set is as follows:
+<table style="padding: 10px">
+    <tr>
+        <td> <img src="./Images/vit_performance/confusion-matrix.png"  alt="1" width="250" height="200"></td>
+    </tr>
+</table>
+
 
 ### Saliency
 Some examples of saliency maps observed for each class.

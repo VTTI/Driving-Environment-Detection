@@ -88,19 +88,7 @@ def baseline(name, n_blocks = [2,2,3,5,2], channels = [64,96,192,384,768],block_
         elif name == "ViT":
             model = models.vit_b_16(pretrained=pretrained)
             return VisionTransformer(model)
-        
-        elif name == "coatnet":
-            ### Still testing other configurations ###
-            ### We dont have pretrained weights for them ###
-            ##num_blocks = n_blocks
-            ##channels = channels
-            ##block_types = blocks_types
-            ##model = CoAtNet((224,224),3,n_blocks,channels,block_types=block_types)
-            
-            ## weights only available for coatnet0 in tensorflow
-            model = coatnet_0()
-            return model
-
+    
     except Exception as e:
         print(e)
 
