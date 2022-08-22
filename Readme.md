@@ -64,7 +64,9 @@ We trained the network on train and validation sets and tested its performance o
 Note that all models are initialized with pretrained weights from training on ImageNet calssification task.
 
 ### Training and Validation
+
 #### Resnext50
+
 The best model obtianed from training with various configurations of optimizers and hyperparameters including learning rate and epochs is with the use of AdamW optimizer. We trained the network for 200 epochs and ploted the performance curves which are as shown here.
 <table style="padding: 10px">
     <tr>
@@ -90,7 +92,9 @@ The confusion matrix on test set is as follows:
         <td> <img src="./Images/baseline_1_performance/confusion-matrix.png"  alt="1" width="250" height="200"></td>
     </tr>
 </table>
+
 #### Vision Transformer
+
 Alternate model was trained using Vision Transformer abd best wegiths for this were from training with various configurations of optimizers and hyperparameters including learning rate and epochs is with the use of AdamW optimizer. We trained the network for 200 epochs and ploted the performance curves which are as shown here.
 <table style="padding: 10px">
     <tr>
