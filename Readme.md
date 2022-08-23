@@ -63,9 +63,9 @@ python main.py \
 We trained the network on train and validation sets and tested its performance on a test set that the network never sees during training. The performance of the network is evaluated based on a combination of its loss, F-score and accuracy curves for training and validation, and its performance on the same metrics with the test data. Further, we also analyze the saliency maps of the calssified images to gather insights on the basis of classification.
 Note that all models are initialized with pretrained weights from training on ImageNet calssification task.
 
-### Training and Validation
-
 #### Resnext50
+
+##### Training and Validation
 
 The best model obtianed from training with various configurations of optimizers and hyperparameters including learning rate and epochs is with the use of AdamW optimizer. We trained the network for 200 epochs and ploted the performance curves which are as shown here.
 <table style="padding: 10px">
@@ -76,7 +76,7 @@ The best model obtianed from training with various configurations of optimizers 
     </tr>
 </table>
 
-### Test 
+#### Test 
 The results obtained by this base line on the entire test set :
 * Loss: 0.6871
 * Fscore: 71.15% 
@@ -95,6 +95,8 @@ The confusion matrix on test set is as follows:
 
 #### Vision Transformer
 
+##### Training and Validation
+
 Alternate model was trained using Vision Transformer abd best wegiths for this were from training with various configurations of optimizers and hyperparameters including learning rate and epochs is with the use of AdamW optimizer. We trained the network for 200 epochs and ploted the performance curves which are as shown here.
 <table style="padding: 10px">
     <tr>
@@ -104,7 +106,8 @@ Alternate model was trained using Vision Transformer abd best wegiths for this w
     </tr>
 </table>
 
-### Test 
+##### Test 
+
 The results obtained by this vit model on the entire test set :
 * Loss: 0.925
 * Fscore: 56.5% 
